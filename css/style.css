@@ -1,0 +1,40 @@
+@import "blocks/page.css";
+@import "blocks/container.css";
+@import "blocks/header.css";
+@import "blocks/logo.css";
+@import "blocks/nav.css";
+@import "blocks/contacts.css";
+@import "blocks/baner.css";
+@import "blocks/features.css";
+@import "blocks/services.css";
+@import "blocks/team.css";
+@import "blocks/social.css";
+@import "blocks/person.css";
+@import "blocks/clients.css";
+
+@import "blocks/portfolio.css";
+
+@import "blocks/footer.css";
+@import "blocks/projects.css";
+@import "blocks/filters.css";
+@import "blocks/modal.css";
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --color--blue: #2196f3;
+  --color--gray: #757575;
+  --color--light-gray: #f5f4fa;
+  --color--dark-blue: #2f303a;
+  --color--text-black: #212121;
+  --color--icon-gray: #afb1b8;
+}
+html {
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  margin: 0;
+}

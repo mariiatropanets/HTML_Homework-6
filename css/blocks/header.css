@@ -1,0 +1,16 @@
+.header {
+  background-color: white;
+}
+
+.header__content {
+  display: flex;
+  height: 80px;
+}
+
+.header__logo {
+  margin-right: 93px;
+}
+
+.header__contacts {
+  margin-left: auto;
+}

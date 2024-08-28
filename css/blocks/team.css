@@ -1,0 +1,20 @@
+.team {
+  padding: 94px 0 94px;
+  background-color: var(--color--light-gray);
+}
+
+.team__title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42.19px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin: 0 0 50px;
+}
+.team__list {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

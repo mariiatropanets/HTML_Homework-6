@@ -1,0 +1,22 @@
+.logo {
+  display: flex;
+  align-items: center;
+
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 30.52px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: var(--color--text-black);
+  text-decoration: none;
+}
+
+.logo__blue {
+  color: var(--color--blue);
+}
+
+.logo--footer {
+  color: #fff;
+}
+

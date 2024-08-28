@@ -1,0 +1,38 @@
+.person {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+
+  width: 270px;
+
+  box-shadow: 0px 2px 1px 0px #00000033;
+  box-shadow: 0px 1px 1px 0px #00000024;
+
+  border: 1px solid #0000001f;
+  border-radius: 4px;
+}
+
+.person__info {
+  background-color: white;
+  padding: 30px 32px;
+}
+
+.person__name {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin: 0 0 10px;
+}
+.person__role {
+  margin: 0 0 16px;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  text-align: center;
+
+  color: #757575;
+}

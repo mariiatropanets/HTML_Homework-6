@@ -1,0 +1,8 @@
+.page {
+}
+
+.page__body:has(.modal--visible) {
+  padding-right: 17px;
+  overflow: hidden;
+  height: 100vh;
+}

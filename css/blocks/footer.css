@@ -1,0 +1,17 @@
+.footer {
+  padding: 60px 0;
+  background-color: var(--color--dark-blue);
+}
+
+.footer__content {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 93px;
+}
+
+.footer__contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

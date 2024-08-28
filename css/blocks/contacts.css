@@ -1,0 +1,53 @@
+.contacts {
+  display: flex;
+}
+
+.contacts--header {
+  flex-direction: row;
+  line-height: 16.41px;
+  gap: 50px;
+}
+.contacts--footer {
+  flex-direction: column;
+  line-height: 21px;
+  gap: 9px;
+}
+
+.contacts__link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+
+  letter-spacing: 0.02em;
+  color: var(--color--gray);
+  text-decoration: none;
+
+  transition: color 0.3s;
+}
+
+.contacts__link:hover {
+  color: var(--color--blue);
+}
+
+.contacts__link--address {
+  font-style: normal;
+  color: #fff;
+}
+
+.contacts__icon {
+  color: inherit;
+}
+
+.contacts__icon--smartphone {
+  width: 10px;
+  height: 16px;
+}
+
+.contacts__icon--email {
+  width: 16px;
+  height: 12px;
+}
