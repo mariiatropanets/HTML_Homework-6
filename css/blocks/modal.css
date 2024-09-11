@@ -32,6 +32,7 @@
 }
 
 .modal__window {
+  padding: 40px;
   position: absolute;
 
   width: 528px;
@@ -44,6 +45,15 @@
   transform: translate(-50%, -50%);
 
   border-radius: 4px;
+}
+
+.modal__title {
+  margin: 0 0 12px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23.44px;
+  letter-spacing: 0.03em;
+  text-align: center;
 }
 
 .modal__button {

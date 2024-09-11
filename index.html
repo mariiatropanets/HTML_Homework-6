@@ -58,7 +58,7 @@
     <main class="main">
       <section class="banner">
         <h1 class="banner__title">Ефективні рішення для вашого бізнесу</h1>
-        <button class="banner__button">Замовити послугу</button>
+        <button class="banner__button button">Замовити послугу</button>
       </section>
 
       <section class="features">
@@ -124,26 +124,35 @@
         <div class="container">
           <h2 class="services__title">Чим ми займаємося</h2>
           <ul class="services__list">
-            <li class="services__item">
+            <li class="services__item service">
               <img
                 src="./images/services--1.jpg"
                 alt="Service photo"
-                class="services__image"
+                class="service__image"
               />
+              <h3 class="service__title">
+                Десктопні додатки
+              </h3>
             </li>
-            <li class="services__item">
+            <li class="services__item service">
               <img
                 src="./images/services--2.jpg"
                 alt="Service photo"
-                class="services__image"
+                class="service__image"
               />
+              <h3 class="service__title">
+                Мобільні додатки
+              </h3>
             </li>
-            <li class="services__item">
+            <li class="services__item service">
               <img
                 src="./images/services--3.jpg"
                 alt="Service photo"
-                class="services__image"
+                class="service__image"
               />
+              <h3 class="service__title">
+                Дизайнерські рішення
+              </h3>
             </li>
           </ul>
         </div>
@@ -394,6 +403,23 @@
               </li>
             </ul>
           </div>
+
+          <div class="subscribe">
+            <h3 class="subscribe__title">Підпишіться на розсилку</h3>
+            <form class="subscribe__form">
+              <input
+                type="email"
+                class="subscribe__input"
+                placeholder="E-mail"
+              />
+              <button type="submit" class="subscribe__button button">
+                Підписатися
+                <svg class="subscribe__icon">
+                  <use href="./images/sprite.svg#subscribe"></use>
+                </svg>
+              </button>
+            </form>
+          </div>
         </div>
       </div>
     </footer>
@@ -401,7 +427,51 @@
     <section class="modal">
       <div class="modal__backdrop">
         <div class="modal__window">
-          <form action="" class="modal__form form"></form>
+          <h2 class="modal__title">Залиште свої дані, ми вам передзвонимо</h2>
+          <form class="modal__form form">
+            <label class="form__label">
+              Ім'я
+              <input type="text" class="form__input" />
+              <svg class="form__icon">
+                <use href="./images/sprite.svg#person"></use>
+              </svg>
+            </label>
+
+            <label class="form__label">
+              Телефон
+              <input type="text" class="form__input" />
+              <svg class="form__icon">
+                <use href="./images/sprite.svg#phone"></use>
+              </svg>
+            </label>
+
+            <label class="form__label">
+              Пошта
+              <input type="text" class="form__input" />
+              <svg class="form__icon">
+                <use href="./images/sprite.svg#mail"></use>
+              </svg>
+            </label>
+
+            <label class="form__label">
+              Коментар
+              <textarea
+                name="comment"
+                class="form__input form__input--comment"
+                placeholder="Введіть текст"
+              ></textarea>
+            </label>
+
+            <label class="form__checkbox">
+              <input type="checkbox" name="terms" />
+              Погоджуюся з розсилкою та приймаю
+              <a href="#" class="form__link"> Умови договору</a>
+            </label>
+
+            <button type="submit" class="form__button button">
+              Замовити послугу
+            </button>
+          </form>
 
           <button type="button" class="modal__button">
             <svg class="modal__icon">

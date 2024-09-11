@@ -9,6 +9,7 @@
   letter-spacing: 0.03em;
   text-align: center;
 }
+
 .services__list {
   display: flex;
   gap: 30px;
@@ -17,3 +18,41 @@
   padding: 0;
 }
 
+.service {
+  position: relative;
+
+  width: 370px;
+
+  display: flex;
+}
+
+.service:hover .service__title {
+  background-color: rgba(47, 48, 58, 1);
+}
+
+.service__image {
+  width: 100%;
+}
+
+.service__title {
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 70px;
+  width: 100%;
+
+  font-size: 14px;
+  font-weight: 700;
+
+  background-color: rgba(47, 48, 58, 0.8);
+  color: #fff;
+
+  text-transform: uppercase;
+
+  transition: background-color 0.3s;
+}
