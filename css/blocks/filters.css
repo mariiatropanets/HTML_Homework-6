@@ -21,13 +21,12 @@
   border-radius: 4px;
 
   cursor: pointer;
-  transition: all 0.3s;
+  : all 250ms;
 }
 
 .filters__button:hover {
   color: #fff;
   background-color: var(--color--blue);
-
 }
 
 .filters__button--active {
