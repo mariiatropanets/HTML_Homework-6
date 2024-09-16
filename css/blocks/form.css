@@ -72,8 +72,12 @@
   color: var(--color--blue);
 }
 
-.form__checkbox {
+.form__label--terms {
   margin: 0 0 30px;
+
+  flex-direction: row;
+  align-items: center;
+
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
@@ -82,6 +86,46 @@
   color: rgba(117, 117, 117, 1);
 
   align-self: center;
+}
+
+.form__checkbox-icon {
+  display: block;
+
+  height: 16px;
+  width: 16px;
+
+  border-radius: 2px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-image: url("../../images/checkbox.svg");
+}
+
+.form__checkbox-icon--checked {
+  display: none;
+}
+
+.form__checkbox:checked + .form__checkbox-icon {
+  display: none;
+}
+
+.form__checkbox:checked ~ .form__checkbox-icon--checked {
+  display: block;
+}
+
+.form__checkbox {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .form__link {

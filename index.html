@@ -461,9 +461,15 @@
               ></textarea>
             </label>
 
-            <label class="form__checkbox">
-              <!-- [ ] TODO: custom checkbox -->
-              <input type="checkbox" name="terms" hidden />
+            <label class="form__label form__label--terms">
+              <input type="checkbox" name="terms" class="form__checkbox" />
+              <!-- <span class="form__checkbox-icon"></span> -->
+              <svg class="form__checkbox-icon">
+                <use href="./images/sprite.svg#checkbox"></use>
+              </svg>
+              <svg class="form__checkbox-icon form__checkbox-icon--checked">
+                <use href="./images/sprite.svg#checkbox-checked"></use>
+              </svg>
 
               Погоджуюся з розсилкою та приймаю
               <a href="#" class="form__link"> Умови договору</a>
